@@ -34,7 +34,7 @@ CustomHook(scrollTab, divs);
   return (
     <section className='projects' ref={scrollTab}>
        <div className="title" ref={(el) => el && divs.current.push(el)}>
-        This is my Projects
+        Some of My Projects
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
         {/* 20 */}
