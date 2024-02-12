@@ -1,4 +1,5 @@
 import './App.css'
+import Experience from './components/Experience'
 import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Skills from './components/Skills'
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <Home />
       <Skills />
+      <Experience/>
       <Projects />
       <Contacts />
     </main>
