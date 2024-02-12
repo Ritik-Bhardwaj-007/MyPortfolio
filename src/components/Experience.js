@@ -3,33 +3,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPersonCircleQuestion, faEarthAmericas } from '@fortawesome/free-solid-svg-icons';
 import CustomHook from './CustomHook';
 
-function Projects() {
-const [listProjects] = useState([
+function Internships() {
+const [listInternship] = useState([
   {
-    name: 'UniCom',
+    name: 'SDE Intern',
     des: 'Allows users to create channels and have conversations with other user in realtime, users can send photos and a status indicator that shows weather a user is online or offline',
-    mission: 'Front-end Developer, Handling Media and Communication',
-    language: 'HTML5, CSS3, React JS, Firebase, Redux,...',
-    url:'https://uni-com.vercel.app',
-    images: '/project1.PNG'
+    organisation: 'Stick',
+    techStack: 'Flutter,Reactjs,Nodejs,Expressjs,MongoDB,Postman,...',
+    url:'https://drive.google.com/file/d/18z6YXNhs2trSmLwGATFSRTGE1tFL7PqQ/view?usp=sharing',
+    images: '/Stick-Certificate.jpeg'
   },
   {
-    name: 'Project Real-time chating in website',
+    name: 'Software Application Developer Intern - VNIT',
     des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
-    mission: 'Back-end Developer, system analysis and design',
-    language: 'HTML5, CSS3, React JS, SockerIO,...',
-    url:'',
-    images: '/project2.PNG'
+    organisation: 'Visvesvaraya National Institute of Technology Nagpur',
+    techStack: 'Flutter,Machine Learning,Flask,Azure,...',
+    url:'https://drive.google.com/file/d/1Xv-920II9nJsQffDHCw4ki3EzER8BCai/view?usp=sharing',
+    images: '/VNIT-LoR.jpeg'
   },
-  {
-    name: 'Project Real-time chating in website',
-    des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
-    mission: 'Back-end Developer, system analysis and design',
-    language: 'HTML5, CSS3, React JS, SockerIO,...',
-    url:'',
-    images: '/project2.PNG'
-  },
-
 ]);
 const divs = useRef([]);
 const scrollTab = useRef();
