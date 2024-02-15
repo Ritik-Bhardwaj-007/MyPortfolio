@@ -48,12 +48,12 @@ CustomHook(scrollTab, divs);
     {value.title === 'Phone Number' ? (
       <div>
         <h3>{value.title}</h3>
-        <a href={`tel:${value.url}`} target="_blank" style={{ color: 'white' }}>{value.value}</a>
+        <a href={`tel:${value.url}`} target="_blank" rel="noreferrer" style={{ color: 'white' }}>{value.value}</a>
       </div>
     ) : (
       <div>
         <h3>{value.title}</h3>
-        <a href={`mailto:${value.url}`} target="_blank" style={{ color: 'white' }}>{value.value}</a>
+        <a href={`mailto:${value.url}`} target="_blank" rel="noreferrer" style={{ color: 'white' }}>{value.value}</a>
       </div>
     )}
   </div>
@@ -65,7 +65,7 @@ CustomHook(scrollTab, divs);
         {
           socialList.map((value, key) => (
             <div key={key}>
-             <a className='list' href={value.url} target="_blank">
+             <a className='list' href={value.url} target="_blank" rel="noreferrer">
               <img src={value.value} alt={value.title} style={{ width: '40px', height: '40px' }} />
              </a>
            </div>

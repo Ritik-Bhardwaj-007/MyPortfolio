@@ -28,6 +28,7 @@ useEffect(() => {
         }
           window.addEventListener('scroll', handlScroll);
     }
+    // eslint-disable-next-line
 }, [activeTab])
 }
 
