@@ -9,7 +9,7 @@ const [listInternship] = useState([
     name: 'SDE Intern',
     des: 'As a Software Developer Intern, I specialized in backend development using Node.js, Express, and MongoDB. Notably, I developed multiple APIs for crucial features, showcasing my ability to create robust solutions. Additionally, I leveraged Flutter to build intuitive features on the frontend, demonstrating my versatility in contributing to both backend and frontend aspects of software development.',
     organisation: 'Stick',
-    techStack: 'Flutter,Reactjs,Nodejs,Expressjs,MongoDB,Postman,...',
+    techStack: 'Flutter,Reactjs,Nodejs,Expressjs,MongoDB,...',
     url:'https://drive.google.com/file/d/18z6YXNhs2trSmLwGATFSRTGE1tFL7PqQ/view?usp=sharing',
     images: '/Stick-Certificate.jpeg'
   },

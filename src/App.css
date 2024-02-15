@@ -358,20 +358,30 @@ section.contacts{
 }
 
 @media screen and (max-width: 1023px) {
-    section.home{
-        & .content{
-            & .name{
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    section.home {
+        grid-template-columns: 1fr; /* Change the grid layout for smaller screens */
+        padding-top: 70px;
+        & .content {
+            & .name {
                 font-size: 4em;
             }
-        }
-        & .avatar{
-            & img{
-                max-height: 500px;
+            & a {
+                margin: auto;
+                font-size: small;
             }
+        }
+        & .avatar {
+            grid-row-start: 1;
         }
     }
 }
 @media screen and (max-width: 767px) {
+    body {
+        font-size: 12px; /* Further adjust font size for smaller screens */
+    }
     section{
         padding: 20px;
         &.home{
