@@ -42,7 +42,7 @@ CustomHook(scrollTab, divs);
               </div>
               <div className="content">
                 <h3>{value.name}</h3>
-                <div className="des">{value.des} <a href={value.url}> Recognisition of Intership from Oraganisation</a></div>
+                <div className="des">{value.des} <a href={value.url} target='_blank' rel="noreferrer"> Recognisition of Intership from Oraganisation</a></div>
                 <div className="mission">
                     <div><FontAwesomeIcon icon={faPersonCircleQuestion} /></div>
                     <div>

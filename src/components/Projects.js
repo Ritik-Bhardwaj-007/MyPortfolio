@@ -9,25 +9,25 @@ const [listProjects] = useState([
     name: 'UniCom',
     des: 'Allows users to create channels and have conversations with other user in realtime, users can send photos and a status indicator that shows weather a user is online or offline',
     mission: 'Front-end Developer, Handling Media and Communication',
-    language: 'HTML5, CSS3, React JS, Firebase, Redux,...',
+    language: 'HTML, CSS, Javascript, React JS, Firebase, Redux,...',
     url:'https://uni-com.vercel.app',
     images: '/project1.PNG'
   },
   {
-    name: 'Project Real-time chating in website',
-    des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
+    name: 'SocioPedia -a MERN Social Media Application',
+    des: 'This application incorporates functionalities such as post uploading, liking other posts, and creating new connections with other users, similar to other social media applications.Crafted a fully responsive user interface React JS, ensuring seamless adaptability on diverse devices and resolutions.Developed the Backend using Node JS, Express JS and MongoDB for efficient server-side operations and data management.',
     mission: 'Back-end Developer, system analysis and design',
-    language: 'HTML5, CSS3, React JS, SockerIO,...',
-    url:'',
-    images: '/project2.PNG'
+    language: 'HTML, CSS, Javascript, React JS, Nodejs, ExpressJs, MongoDB,...',
+    url:'https://github.com/Ritik-Bhardwaj-007/SocialPedia',
+    images: '/project2.jpeg'
   },
   {
-    name: 'Project Real-time chating in website',
-    des: 'Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.',
+    name: 'CRA- A complaint management App for IIITN students',
+    des: 'Developed an complaint management application which is used to manage all the complaints related to hostel, It can manage data of 10000+ students living in college hostel.Created using Flutter and Google Firebase for back-end.',
     mission: 'Back-end Developer, system analysis and design',
-    language: 'HTML5, CSS3, React JS, SockerIO,...',
-    url:'',
-    images: '/project2.PNG'
+    language: 'Flutter,Firebase,...',
+    url:'https://github.com/Ritik-Bhardwaj-007/Cra_complaint_app_flutter/tree/main/cra_app-main',
+    images: '/project3.jpg'
   },
 
 ]);
@@ -51,7 +51,7 @@ CustomHook(scrollTab, divs);
               </div>
               <div className="content">
                 <h3>{value.name}</h3>
-                <div className="des">{value.des}. <a href={value.url}> Project Link </a></div>
+                <div className="des">{value.des}. <a href={value.url} target='_blank' rel="noreferrer"> Project Link </a></div>
                 <div className="mission">
                     <div><FontAwesomeIcon icon={faPersonCircleQuestion} /></div>
                     <div>

@@ -11,11 +11,10 @@ return (
                 HEY I AM <span>Ritik Bhardwaj</span>
             </div>
             <div className="des">
-                {/* 30 */}
                 Enthusiastically navigating the digital realm with a passion for crafting seamless, innovative solutions, I am a versatile FULL STACK SOFTWARE DEVELOPER proficient in the MERN stack and FLUTTER. With a rich tapestry of hands-on experience woven through impactful projects and successful internships, I bring a dynamic blend of technical prowess and creative PROBLEM-SOLVING to the forefront of every endeavor.
             </div>
             
-            <a href="/democv.pdf" target="_blank" rel="noopener noreferrer" className='animation active '>
+            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className='animation active '>
                 Download My CV
             </a>
         </div>
