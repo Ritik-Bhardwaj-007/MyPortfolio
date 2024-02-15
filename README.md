@@ -1,14 +1,19 @@
+# Portfolio Repository
 
-# Porfolio using ReactJS
+Welcome to the repository for my personal portfolio website! This repository contains the code and assets used to build and maintain my online portfolio.
 
-steps to implement the project
+## Live Website
 
-Step 1: 
-```
-npm install
-```
-Step 2: 
-```
-npm start
-```
-This will launch the development server and open your browser, displaying the application at http://localhost:3000/ (or another port if port 3000 is already in use).
+You can view my portfolio live by visiting [Portfolio Website](https://ritikbhardwajportfolio.netlify.app/).
+
+## Overview
+
+This repository serves as the source code for my personal portfolio website. It includes Reactjs files, along with any additional assets such as images or fonts.
+
+## Features
+
+- **Responsive Design:** The portfolio is designed to be accessible and visually appealing on various devices and screen sizes.
+- **Project Showcase:** A section dedicated to showcasing my projects, skills, and experiences.
+- **Contact:** A contact section to make it easy for visitors to get in touch with me.
+- **Resume Download:** Users can download my resume directly from the website.
+
