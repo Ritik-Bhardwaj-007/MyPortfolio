@@ -20,7 +20,7 @@ return (
         </div>
         <div className="avatar">
             <div className="card">
-                <img src="/avatar.jpg" alt="" />
+                <img src="/ritikProfilePic.jpeg" alt="" />
                 <div className="info">
                     <div>Full stack Developer(MERN)</div>
                     <div>Flutter</div>
