@@ -154,12 +154,12 @@ section.home{
             & .info{
                 background-color: #eee; 
                 color: #010824;
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                /* display: grid;
+                grid-template-columns: repeat(2, 1fr); */
                 text-align: center;
                 gap: 20px;
-                padding: 20px;
-                font-size: 1.2em;
+                padding: 10px;
+                font-size: 1.5em;
                 & div:nth-child(n) {
                     font-weight: bold;
                 }

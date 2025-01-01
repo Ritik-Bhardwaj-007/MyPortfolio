@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faHtml5, faCss3, faJs, faNodeJs,faMdb,faGooglePlay, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faJs, faNodeJs,faMdb, faPython, faAws, faStackExchange, faDropbox } from '@fortawesome/free-brands-svg-icons';
 import CustomHook from './CustomHook';
 
 function Skills() {
@@ -8,14 +8,6 @@ function Skills() {
   const scrollTab = useRef();
   CustomHook(scrollTab, divs);
 const [listSkills] = useState([
-  {
-    name: 'HTML',
-    icon: faHtml5
-  },
-  {
-    name: 'CSS',
-    icon: faCss3
-  },
   {
     name: 'Javascript',
     icon: faJs},
@@ -36,13 +28,21 @@ const [listSkills] = useState([
     icon: faMdb
   },
   {
+    name: 'AWS',
+    icon: faAws
+  },
+  {
+    name: 'Redis',
+    icon: faStackExchange
+  },
+  {
     name: 'Python',
     icon: faPython
   },
   {
-    name: 'Flutter',
-    icon: faGooglePlay
-  }
+    name: 'MySQL',
+    icon: faDropbox
+  },
 
 ]);
   return (

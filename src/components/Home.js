@@ -22,10 +22,8 @@ return (
             <div className="card">
                 <img src="/ritikProfilePic.jpeg" alt="" />
                 <div className="info">
-                    <div>Full stack Developer(MERN)</div>
-                    <div>Flutter</div>
-                    <div>Frontend(Reactjs)</div>
-                    <div>Backend</div>
+                    <div>Full stack Developer</div>
+                    <div>(Backend Focused)</div>
                 </div>
             </div>
         </div>

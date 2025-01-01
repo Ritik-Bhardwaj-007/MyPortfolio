@@ -6,20 +6,28 @@ import CustomHook from './CustomHook';
 function Internships() {
 const [listInternship] = useState([
   {
+    name: 'Software Engineer Intern',
+    des: "Currently working on WMS and Emoha Carer App with the backend team to design and develop new features and optimize the existing ones.",
+    organisation: 'EMOHA Elder Care',
+    techStack: 'Nodejs, Expressjs, SQL, Sequalize, Redis,...',
+    url:'',
+    images: '/EmohaLogo.png'
+  },
+  {
+    name: 'Internship - VNIT',
+    des: "I developed and launched two mobile apps for Nagpur's veterinary community. One, built with Flutter and Dart, featured offline functionality using TensorFlow Lite. The other, with its backend on Azure, offered real-time updates. Tailored to meet the distinct needs of veterinary professionals, students, cattle farmers, and gaushalas, these apps underscore my commitment to delivering specific and impactful solutions for the local veterinary community.",
+    organisation: 'Visvesvaraya National Institute of Technology Nagpur',
+    techStack: 'Flutter,Machine Learning,Flask,Azure,...',
+    url:'https://drive.google.com/file/d/1Xv-920II9nJsQffDHCw4ki3EzER8BCai/view?usp=sharing',
+    images: '/VNIT-LoR.jpeg'
+  },
+  {
     name: 'SDE Intern',
     des: 'As a Software Developer Intern, I specialized in backend development using Node.js, Express, and MongoDB. Notably, I developed multiple APIs for crucial features, showcasing my ability to create robust solutions. Additionally, I leveraged Flutter to build intuitive features on the frontend, demonstrating my versatility in contributing to both backend and frontend aspects of software development.',
     organisation: 'Stick',
     techStack: 'Flutter,Reactjs,Nodejs,Expressjs,MongoDB,...',
     url:'https://drive.google.com/file/d/18z6YXNhs2trSmLwGATFSRTGE1tFL7PqQ/view?usp=sharing',
     images: '/Stick-Certificate.jpeg'
-  },
-  {
-    name: 'Software Application Developer Intern - VNIT',
-    des: "I developed and launched two mobile apps for Nagpur's veterinary community. One, built with Flutter and Dart, featured offline functionality using TensorFlow Lite. The other, with its backend on Azure, offered real-time updates. Tailored to meet the distinct needs of veterinary professionals, students, cattle farmers, and gaushalas, these apps underscore my commitment to delivering specific and impactful solutions for the local veterinary community.",
-    organisation: 'Visvesvaraya National Institute of Technology Nagpur',
-    techStack: 'Flutter,Machine Learning,Flask,Azure,...',
-    url:'https://drive.google.com/file/d/1Xv-920II9nJsQffDHCw4ki3EzER8BCai/view?usp=sharing',
-    images: '/VNIT-LoR.jpeg'
   },
 ]);
 const divs = useRef([]);
@@ -42,7 +50,7 @@ CustomHook(scrollTab, divs);
               </div>
               <div className="content">
                 <h3>{value.name}</h3>
-                <div className="des">{value.des} <a href={value.url} target='_blank' rel="noreferrer"> Recognisition of Intership from Oraganisation</a></div>
+                <div className="des">{value.des}{value.organisation!=='EMOHA Elder Care' && <a href={value.url} target='_blank' rel="noreferrer"> Recognisition of Intership from Oraganisation</a>}</div>
                 <div className="mission">
                     <div><FontAwesomeIcon icon={faPersonCircleQuestion} /></div>
                     <div>
