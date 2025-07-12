@@ -11,7 +11,7 @@ return (
                 HEY I AM <span>Ritik Bhardwaj</span>
             </div>
             <div className="des">
-                Enthusiastically navigating the digital realm with a passion for crafting seamless, innovative solutions, I am a versatile FULL STACK SOFTWARE DEVELOPER proficient in the MERN stack and FLUTTER. With a rich tapestry of hands-on experience woven through impactful projects and successful internships, I bring a dynamic blend of technical prowess and creative PROBLEM-SOLVING to the forefront of every endeavor.
+                I'm a Full Stack Developer specializing in the MERN stack, with experience building scalable web applications and efficient backend systems. Through hands-on projects and real-world internships, I've developed RESTful APIs, optimized API performance, and implemented end-to-end features that solve real user problems. I focus on writing clean, maintainable code and delivering production-ready solutions.
             </div>
             
             <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className='animation active '>

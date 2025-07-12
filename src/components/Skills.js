@@ -51,7 +51,7 @@ const [listSkills] = useState([
         What Skills I Have ?
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
-       In the dynamic world of creativity, my diverse skill set forms the foundation of impactful work. Fueled by innovation and commitment to excellence, I bring creativity, adaptability, and meticulous attention to detail. Whether designing visuals, developing websites, or managing projects, I approach each task with enthusiasm and expertise. Let's explore how my skills can elevate success.
+       With a strong foundation in full-stack development, I bring a versatile and practical skill set to the table. I specialize in building scalable web applications using the MERN stack, crafting efficient APIs, and solving complex problems through clean, modular code. Beyond development, I’m experienced in version control, cloud deployment, and real-time data handling. Whether it’s leading a project from scratch or optimizing existing systems, I approach every challenge with curiosity, precision, and a drive to build solutions that work — and last.
        </div>
        <div className="list">
         {

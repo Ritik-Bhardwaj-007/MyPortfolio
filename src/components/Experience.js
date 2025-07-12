@@ -6,11 +6,19 @@ import CustomHook from './CustomHook';
 function Internships() {
 const [listInternship] = useState([
   {
-    name: 'Software Engineer Intern',
-    des: "Currently working on WMS and Emoha Carer App with the backend team to design and develop new features and optimize the existing ones.",
+    name: 'SDE I',
+    des: "Promoted to full-time role after successful internship performance and critical contributions to backend architecture and performance optimization.",
     organisation: 'EMOHA Elder Care',
     techStack: 'Nodejs, Expressjs, SQL, Sequalize, Redis,...',
     url:'',
+    images: '/EmohaLogo.png'
+  },
+  {
+    name: 'Software Engineer Intern',
+    des: "Led the bi-directional integration of Cflow with Emoha’s WMS, automating real-time lead synchronization, mirroring status updates across systems, and triggering process-driven actions such as consent form generation based on lead progression.",
+    organisation: 'EMOHA Elder Care',
+    techStack: 'Nodejs, Expressjs, SQL, Sequalize, Redis,...',
+    url:'https://drive.google.com/file/d/1PP4cOYzNoaEJfVXndBwUIv-Xff27MqMa/view',
     images: '/EmohaLogo.png'
   },
   {
@@ -39,7 +47,7 @@ CustomHook(scrollTab, divs);
         Yes, I Have Some Experience Too! 
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
-       Throughout my professional journey, I've made impactful contributions to diverse organizations, specializing in backend and frontend development, along with mobile app expertise. I've successfully crafted robust features, optimized system performance, and deployed innovative solutions. These experiences have honed my technical skills, demonstrating adaptability and a commitment to delivering effective solutions in the dynamic realm of software development.
+       Over the course of my journey, I’ve contributed to impactful projects and real-world products across startups and internships. From building and optimizing RESTful APIs to integrating scalable backend systems and delivering full-stack features, I’ve worked on solutions that improved performance, reliability, and user experience. These hands-on experiences have sharpened my problem-solving skills and deepened my understanding of building efficient, production-grade software.
        </div>
        <div className="list">
         {
@@ -50,7 +58,7 @@ CustomHook(scrollTab, divs);
               </div>
               <div className="content">
                 <h3>{value.name}</h3>
-                <div className="des">{value.des}{value.organisation!=='EMOHA Elder Care' && <a href={value.url} target='_blank' rel="noreferrer"> Recognisition of Intership from Oraganisation</a>}</div>
+                <div className="des">{value.des}{value.name!=='SDE I' && <a href={value.url} target='_blank' rel="noreferrer"> Recognisition of Intership from Oraganisation</a>}</div>
                 <div className="mission">
                     <div><FontAwesomeIcon icon={faPersonCircleQuestion} /></div>
                     <div>
